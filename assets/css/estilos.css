@@ -1,0 +1,52 @@
+body{
+    background: black;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    background: yellow;
+
+}
+p{
+    color: yellow;
+    background: rgb(2, 2, 53);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+
+}
+
+#parrafoPresentacion{
+    color: white;
+    font-size: "18px"
+}
+small{
+    text-align: center;
+    color:black
+}
+
+#divEspecial{
+    background-color: black; 
+    color:black;
+}
+
+#contenedorForm{
+    background-color: rgb(238, 175, 144);
+}
+
+@media only screen and (min-width: 768px) {
+    #divEspecial{
+        background-color: aqua;
+        color: red;
+    }
+
+    #contenedorForm{
+        color:white;
+
+       
+    }
+
+
+  }
